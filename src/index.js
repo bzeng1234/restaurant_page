@@ -1,4 +1,6 @@
-let testDiv = document.querySelector('#content');
-testDiv.textContent = "testing";
+import pageLoad from "./page-load";
+import './styles.css';
 
-console.log('testing 2');
+//main script used to run the function that will build the website
+
+pageLoad();
