@@ -45,3 +45,15 @@ button:hover {
     border-bottom: 3px solid white;
     cursor: pointer;
 }
+
+.content {
+    height: 1000px;
+    background: url('./hotpot.jpeg') no-repeat;
+    background-size: 100%;
+}
+
+.footer {
+    height: 50px;
+    color: white;
+    background-color: #404040;
+}
