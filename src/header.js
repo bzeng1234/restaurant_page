@@ -27,5 +27,5 @@ export let loadHeader = (() => {
     contactBtn.textContent = "Contact";
     tabContainer.appendChild(contactBtn);
 
-    return {headerContainer}
+    return {headerContainer, homeBtn, menuBtn, contactBtn}
 })();
